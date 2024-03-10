@@ -502,7 +502,25 @@ button.send-button:hover {
     background: var(--color-gpt3);
     color: var(--color-white);
 }
-
+.mic-button {
+    position: absolute;
+    right: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 1em;
+    padding: 7px 9px 7px 7px;
+    color: var(--color-white);
+    border: none;
+    margin-top: -2px;
+}
+button.mic-button:hover {
+    border: none;
+    ;
+    color: var(--color-white);
+}
 p {
     margin: 0 0 1.5em 0;
 }
